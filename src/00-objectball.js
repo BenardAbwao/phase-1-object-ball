@@ -1,5 +1,5 @@
 function gameObject() {
-    const obj = {
+    const team = {
       home: {
         teamName: "Brooklyn Nets",
         colors: ["Black", "White"],
@@ -113,7 +113,7 @@ function gameObject() {
         },
       },
     };
-    return obj;
+    return team;
   }
 
 const game = gameObject();
@@ -206,6 +206,7 @@ function doesLongNameStealATon() {
   return longNameSteals === maxSteals;
 }
 
+console.log(gameObject());
 debugger;
 
 
